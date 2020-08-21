@@ -11,8 +11,8 @@ public class MomController {
 
     @ResponseBody
       @RequestMapping(value = "/mom")
-    public void getMother()
+    public String getMother()
     {
-        System.out.println("Hi..I'm Mom Controller");
+        return("Hi..I'm Mom Controller");
     }
 }
